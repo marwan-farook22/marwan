@@ -1,0 +1,33 @@
+.image {
+  height: 89vh;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("https://www.goldsgym.com/wp-content/uploads/sites/1/2024/02/Built-by-Golds-Serious-Traning-Brand-Hero-1024x438-JPG.jpg");
+}
+
+#img {
+  width: 30%;
+}
+#inside {
+  margin-top: 6em;
+}
+@media (min-width: 300px) and (max-width: 1199.98px) {
+  .image {
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("https://www.goldsgym.com/wp-content/uploads/sites/1/2024/02/Built-by-Golds-Serious-Traning-Brand-Hero-1024x438-JPG.jpg");
+  }
+  #img {
+    width: 20%;
+  }
+  #inside {
+    margin-top: 2em;
+  }
+  #svg {
+    width: 20%;
+  }
+}
+#color {
+  background-color: #252233;
+}
